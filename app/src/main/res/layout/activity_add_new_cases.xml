@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AddNewCasesActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter details of the new cases below"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/case_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Case Number"
+        android:textSize="24dp"
+        android:layout_below="@+id/textTitle"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/case_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textSize="24dp"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:layout_below="@+id/case_id"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/treatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Treatment"
+        android:textSize="24dp"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:layout_below="@+id/case_desc"
+        android:inputType="text"
+         />
+    <EditText
+        android:id="@+id/signs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:hint="Signs/Symtoms"
+        android:textSize="24dp"
+        android:layout_below="@+id/treatment"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/prevention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prevention"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:textSize="24dp"
+        android:layout_below="@+id/signs"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/warnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Warnings"
+        android:textSize="24dp"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:layout_below="@+id/prevention"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/ref_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reference Book Page"
+        android:textSize="24dp"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:layout_below="@+id/warnings"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Create New Case Record"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/ref_page"/>
+
+</RelativeLayout>

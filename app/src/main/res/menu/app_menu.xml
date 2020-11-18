@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="Item1"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/consult"
+        android:title="Consultation"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/register"
+        android:title="Document New Cases"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/care_for_the_sick"
+        android:title="Caring for the sick Person"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/examine_the_sick"
+        android:title="How to examine the sick Person"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/pharmacy"
+        android:title="Pharmacy"
+        app:showAsAction="never">
+        <menu >
+                <item android:id="@+id/individualMed"
+                  android:title="Individual Medicines"/>
+                <item android:id="@+id/groupMed"
+                  android:title="Group of Medicines"/>
+        </menu>
+    </item>
+
+
+</menu>

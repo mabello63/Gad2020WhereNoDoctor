@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_control_point_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/care_desc_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CARING DESCRIPTION"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/care_desc" />
+                <TextView
+                    android:id="@+id/care_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Malaria"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+              <TextView
+                android:id="@+id/care_details_label"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Procedure/Guide "
+                  android:textAllCaps="true"
+                  android:textStyle="bold"
+                  android:labelFor="@id/care_details" />
+              <TextView
+                android:id="@+id/care_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:text="Caring For The Scik Person"/>
+             </LinearLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

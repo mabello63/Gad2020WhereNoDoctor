@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2713537-4a45-432e-a767-49ed991e67f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/databases/PharmacyDB171120B.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/CareForSickActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/CareForSickGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/CareForSickSearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/CareForSickSearchViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBCaringAssetHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBCaringOpenHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBPharmacyAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBPharmacyAssetHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBPharmacyGroupAssetHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBPharmacyOpenHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/ExamineTheSickActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/ExamineTheSickAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/ExamineTheSickClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/ExamineTheSickViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/Pharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacyActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacyGroupActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacyGroupSearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacyGroupSearchViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacySearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/PharmacySearchViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_control_point_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_local_pharmacy_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_note_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_care_for_sick.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_examine_the_sick.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pharmacy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pharmacy_group.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_care_for_sick_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_examine_the_sick_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_pharmacy_group_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_pharmacy_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/databases/MedConditions.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/databases/MedConditions181120B.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/databases/MyExternalDatabase.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBMedAssetHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/DBMedAssetHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/MainMedicalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/MainMedicalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/WelcomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/WelcomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_medical.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_medical.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/app_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/app_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5X_Edited_API_26]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jnXyioPFu74aKpB4JUSvmG8ItO" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_Edited_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-15T16:31:32.927Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets/databases" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.plurasight.wherethereisnodoctor" />
+      <recent name="com.plurasight.databaseapplication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Android Projects\AndroidProjects\Current Projects\DoctorApp\app\src\main\assets\databases" />
+      <recent name="C:\Android Projects\AndroidProjects\Current Projects\DoctorApp\app\src\main\java\com\plurasight\wherethereisnodoctor" />
+      <recent name="C:\Android Projects\AndroidProjects\Current Projects\DoctorApp\app\src\main\res\layout" />
+      <recent name="C:\Android Projects\AndroidProjects\Current Projects\WhereNoDoctorPresent\app\src\main\res\layout" />
+      <recent name="C:\Android Projects\AndroidProjects\Current Projects\WhereNoDoctorPresent\app\src\main\assets\databases" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="DatabaseApplication.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.plurasight.wherethereisnodoctor.WelcomeActivity" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2713537-4a45-432e-a767-49ed991e67f6" name="Default Changelist" comment="" />
+      <created>1604441085824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604441085824</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="8" key="#app" timestamp="1604862729283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="8" key="#app/0.0.1366.728@0.0.1366.728" timestamp="1604862729283" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605456937948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605456937948" />
+    <state x="406" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604451108746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604451108746" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1605524937986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605524937986" />
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604799778897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1604799778897" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605390405440">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1605390405440" />
+    <state x="459" y="232" width="451" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605394126329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="232" width="451" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1605394126329" />
+    <state x="49" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605523986667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="49" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1605523986667" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605666820139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605666820139" />
+    <state x="481" y="110" key="AndroidProcessChooserDialog" timestamp="1605175000443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="481" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1605175000443" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604784330962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604784330962" />
+    <state width="1323" height="3" key="GridCell.Tab.0.bottom" timestamp="1605673454285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605673454285" />
+    <state width="1323" height="3" key="GridCell.Tab.0.center" timestamp="1605673454285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="3" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605673454285" />
+    <state width="1323" height="3" key="GridCell.Tab.0.left" timestamp="1605673454284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="3" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605673454284" />
+    <state width="1323" height="3" key="GridCell.Tab.0.right" timestamp="1605673454285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="3" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605673454285" />
+    <state width="1323" height="75" key="GridCell.Tab.1.bottom" timestamp="1605472306569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605472306569" />
+    <state width="1323" height="75" key="GridCell.Tab.1.center" timestamp="1605472306569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605472306569" />
+    <state width="1323" height="75" key="GridCell.Tab.1.left" timestamp="1605472306569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605472306569" />
+    <state width="1323" height="75" key="GridCell.Tab.1.right" timestamp="1605472306569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605472306569" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1605473761687">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605473761687" />
+    <state x="55" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1604895498916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="55" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604895498916" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605533743456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605533743456" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/plurasight/wherethereisnodoctor/CareForSickActivity.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

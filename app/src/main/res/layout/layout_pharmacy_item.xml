@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:src="@drawable/ic_baseline_local_pharmacy_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+              <TextView
+                android:id="@+id/genericname_label"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Generic Name"
+                  android:textAllCaps="true"
+                  android:textStyle="bold"
+                  android:labelFor="@id/GenericName" />
+              <TextView
+                android:id="@+id/GenericName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:text="Amoxine Generic Name"/>
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/othernames_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other Names"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@+id/OtherNames" />
+                <TextView
+                    android:id="@+id/OtherNames"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Other Names"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/uses_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Uses"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/Uses" />
+                <TextView
+                    android:id="@+id/Uses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Uses Cases"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/dosage_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dosage"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/Dosage" />
+                <TextView
+                    android:id="@+id/Dosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Dosage"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/warnings_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Warnings"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/Warnings" />
+                <TextView
+                    android:id="@+id/Warnings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Warnings"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/caution_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Caution"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/Caution" />
+                <TextView
+                    android:id="@+id/Caution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Caution"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/sigeeffects_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Side Effects"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/SigeEffects" />
+                <TextView
+                    android:id="@+id/SigeEffects"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Side Effects"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/moreinfo_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reference Page"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/MoreInfo" />
+                <TextView
+                    android:id="@+id/MoreInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="More Information"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

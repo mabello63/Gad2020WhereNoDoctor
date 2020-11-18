@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Where There Is No Doctor</string>
+    <string name="case_desc">Case Description</string>
+    <string name="regiser_input_medical_cases">REGISER/INPUT MEDICAL CASES</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="Signs">Signs/Symptoms</string>
+    <string name="signs_symptoms">SIGNS/SYMPTOMS</string>
+</resources>

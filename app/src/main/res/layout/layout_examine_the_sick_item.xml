@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_note_add_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:outlineAmbientShadowColor="@color/colorAccent"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/exam_desc_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Objective"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/exam_description" />
+                <TextView
+                    android:id="@+id/exam_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:text="What to Examine"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+              <TextView
+                android:id="@+id/exam_procedure_label"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Detailed Procedure"
+                  android:textAllCaps="true"
+                  android:textStyle="bold"
+                  android:labelFor="@id/procedure" />
+              <TextView
+                android:id="@+id/procedure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                  android:textSize="15sp"
+                android:text="Examine The Scik Person"/>
+             </LinearLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

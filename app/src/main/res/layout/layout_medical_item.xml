@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:src="@drawable/ic_baseline_local_hospital_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+              <TextView
+                android:id="@+id/case_desc_label"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Case Description"
+                  android:textAllCaps="true"
+                  android:textStyle="bold"
+                  android:labelFor="@id/case_desc" />
+              <TextView
+                android:id="@+id/case_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="false"
+                android:textStyle="italic"
+                android:text="Cerebral Malaria"/>
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/signs_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Signs/Symptoms"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/signs" />
+                <TextView
+                    android:id="@+id/signs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Sigs and Symptoms"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/treatment_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Treatment"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/treatment" />
+                <TextView
+                    android:id="@+id/treatment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Treatment"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/prevention_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prevention"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/prevention" />
+                <TextView
+                    android:id="@+id/prevention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Prevention"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/warnings_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Warnings"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/warnings" />
+                <TextView
+                    android:id="@+id/warnings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Warnings"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/ref_page_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Page Reference"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:labelFor="@id/ref_page" />
+                <TextView
+                    android:id="@+id/ref_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="false"
+                    android:textStyle="italic"
+                    android:text="Page Reference"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
